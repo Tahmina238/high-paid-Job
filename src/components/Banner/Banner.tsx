@@ -33,7 +33,7 @@ export default function Banner() {
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link
                 href="#book"
-                className="bg-yellow-500 hover:bg-yellow-400 transition-colors text-black font-semibold px-8 py-4 rounded-full flex items-center justify-center"
+                className="bg-yellow-500 hover:bg-yellow-400 transition-colors  font-semibold px-8 py-4 rounded-full flex items-center justify-center"
               >
                 Book Free Consultation
                 <span className="ml-2">→</span>

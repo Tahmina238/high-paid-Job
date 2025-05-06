@@ -4,7 +4,7 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 import logo2 from "../../../public/footerLogo.webp";
 export default function Footer() {
   return (
-    <footer className="bg-[#0a0b1a] text-white  py-8">
+    <footer className=" text-white  bg-neutral-950 py-8">
       <div className=" mx-auto container  px-2">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
           {/* Logo and Tagline */}

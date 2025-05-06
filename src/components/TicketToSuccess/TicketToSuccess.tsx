@@ -3,15 +3,15 @@ import Link from "next/link";
 
 export default function TicketToSuccess() {
   return (
-    <div className="min-h-screen ">
+    <div className=" bg-background">
       <div className="container mx-auto px-4 py-16  ">
-        <div className="text-center mb-12 text-black">
-          <h1 className="text-4xl font-bold text-black mb-4">
+        <div className="text-center mb-12 ">
+          <h1 className="text-4xl font-bold  mb-4">
             Why High Paid Jobs is your
             <br />
             ticket to success
           </h1>
-          <p className="text-black max-w-3xl mx-auto">
+          <p className=" max-w-3xl mx-auto">
             We share our special tools and techniques, and coach you one-on-one
             from the beginning to the placement with higher raise.
           </p>
@@ -308,7 +308,7 @@ export default function TicketToSuccess() {
         <div className="flex justify-center">
           <Link
             href="#"
-            className="bg-blue-600 hover:bg-blue-700 text-black font-medium py-3 px-6 rounded-full inline-flex items-center"
+            className="bg-primary hover:bg-blue-700  text-white font-medium py-3 px-6 rounded-full inline-flex items-center"
           >
             Book Free Consultation &gt;
           </Link>

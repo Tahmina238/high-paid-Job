@@ -79,7 +79,7 @@ export default function PricingComparison() {
           {/* Essential Plan */}
           <Card className="bg-blue-900 border-blue-800 text-white relative">
             <div className="absolute -right-2 top-4">
-              <div className="bg-amber-500 text-black text-xs font-medium px-4 py-2 rounded relative">
+              <div className="bg-amber-500  text-xs font-medium px-4 py-2 rounded relative">
                 Most Popular
                 <svg
                   width="10"

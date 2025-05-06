@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function ChooseOver() {
   return (
-    <div className="  container bg-gray-900 text-white mx-auto px-4">
-      <div className="  md:py-12">
+    <div className="  container bg-background  mx-auto px-4">
+      <div className="  md:py-14">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-2">
+          <h2 className="text-5xl font-bold mb-2">
             Why Choose Us Over Others?
           </h2>
           <p className="text-gray-400">
@@ -14,10 +14,10 @@ export default function ChooseOver() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6  ">
           {/* Feature 1 */}
-          <div className="bg-gray-800 rounded-lg p-6">
-            <div className="flex justify-center mb-4">
+          <div className=" bg-secondary border radias rounded-lg p-6   ">
+            <div className=" mb-4">
               <svg
                 width="50.000000"
                 height="49.988037"
@@ -63,24 +63,27 @@ export default function ChooseOver() {
             </p>
 
             <div className="grid grid-cols-2 gap-2 mb-4">
-              <div className="bg-gray-900 rounded flex items-center justify-center py-2 px-4">
+              <div className="bg-background rounded flex items-center justify-center py-2 px-4">
                 <span className="mr-2">HighPaidJobs</span>
-                <Check className="h-5 w-5 text-green-500" />
+                <Check className="h-5 w-5  text-green-500" />
               </div>
-              <div className="bg-gray-900 rounded flex items-center justify-center py-2 px-4">
+              <div className="bg-background rounded flex items-center justify-center py-4 px-4">
                 <span className="mr-2">Others</span>
                 <X className="h-5 w-5 text-red-500" />
               </div>
             </div>
 
-            <div className="bg-gray-700 rounded p-2 text-xs text-center">
-              95.99% success rate within 8-16 weeks
+            <div className="bg-white rounded p-2 text-md text-center">
+              <span className="text-blue-700 ">
+                {" "}
+                95.99% success rate within 8-16 weeks
+              </span>
             </div>
           </div>
 
           {/* Feature 2 */}
-          <div className="bg-gray-800 rounded-lg p-6">
-            <div className="flex justify-center mb-4">
+          <div className="bg-secondary  border radias rounded-lg p-6">
+            <div className=" mb-4">
               <svg
                 width="50.000000"
                 height="50.000000"
@@ -125,24 +128,26 @@ export default function ChooseOver() {
             </p>
 
             <div className="grid grid-cols-2 gap-2 mb-4">
-              <div className="bg-gray-900 rounded flex items-center justify-center py-2 px-4">
+              <div className="bg-background rounded flex items-center justify-center py-4 px-4">
                 <span className="mr-2">HighPaidJobs</span>
                 <Check className="h-5 w-5 text-green-500" />
               </div>
-              <div className="bg-gray-900 rounded flex items-center justify-center py-2 px-4">
+              <div className="bg-background rounded flex items-center justify-center py-4 px-4">
                 <span className="mr-2">Others</span>
                 <X className="h-5 w-5 text-red-500" />
               </div>
             </div>
 
-            <div className="bg-gray-700 rounded p-2 text-xs text-center">
-              Dedicated mentor throughout your journey
+            <div className="bg-white rounded p-2 text-md text-center">
+              <span className="text-blue-700 ">
+                Dedicated mentor throughout your journey
+              </span>
             </div>
           </div>
 
           {/* Feature 3 */}
-          <div className="bg-gray-800 rounded-lg p-6">
-            <div className="flex justify-center mb-4">
+          <div className="bg-secondary  border radias rounded-lg p-6">
+            <div className="mb-4">
               <svg
                 width="48.513672"
                 height="50.000000"
@@ -185,24 +190,26 @@ export default function ChooseOver() {
             </p>
 
             <div className="grid grid-cols-2 gap-2 mb-4">
-              <div className="bg-gray-900 rounded flex items-center justify-center py-2 px-4">
+              <div className="bg-background rounded flex items-center justify-center py-4 px-4">
                 <span className="mr-2">HighPaidJobs</span>
                 <Check className="h-5 w-5 text-green-500" />
               </div>
-              <div className="bg-gray-900 rounded flex items-center justify-center py-2 px-4">
+              <div className="bg-background rounded flex items-center justify-center py-4 px-4">
                 <span className="mr-2">Others</span>
                 <X className="h-5 w-5 text-red-500" />
               </div>
             </div>
 
-            <div className="bg-gray-700 rounded p-2 text-xs text-center">
-              We join your interviews to help you succeed
+            <div className="bg-white rounded p-2 text-xs text-center">
+              <span className="text-blue-700 ">
+                We join your interviews to help you succeed
+              </span>
             </div>
           </div>
 
           {/* Feature 4 */}
-          <div className="bg-gray-800 rounded-lg p-6">
-            <div className="flex justify-center mb-4">
+          <div className="bg-secondary border radias rounded-lg p-6">
+            <div className=" mb-4">
               <svg
                 width="48.513672"
                 height="50.000000"
@@ -245,24 +252,26 @@ export default function ChooseOver() {
             </p>
 
             <div className="grid grid-cols-2 gap-2 mb-4">
-              <div className="bg-gray-900 rounded flex items-center justify-center py-2 px-4">
+              <div className="bg-background rounded flex items-center justify-center py-4 px-4">
                 <span className="mr-2">HighPaidJobs</span>
                 <Check className="h-5 w-5 text-green-500" />
               </div>
-              <div className="bg-gray-900 rounded flex items-center justify-center py-2 px-4">
+              <div className="bg-background rounded flex items-center justify-center py-4 px-4">
                 <span className="mr-2">Others</span>
                 <X className="h-5 w-5 text-red-500" />
               </div>
             </div>
 
-            <div className="bg-gray-700 rounded p-2 text-xs text-center">
-              Full support during probation period to help your job sustain
+            <div className="bg-white rounded p-2 text-xs text-center">
+              <span className="text-blue-700 ">
+                Full support during probation period to help your job sustain
+              </span>
             </div>
           </div>
 
           {/* Feature 5 */}
-          <div className="bg-gray-800 rounded-lg p-6">
-            <div className="flex justify-center mb-4">
+          <div className="bg-secondary border radias rounded-lg p-6">
+            <div className=" mb-4">
               <svg
                 width="43.522949"
                 height="50.000000"
@@ -307,24 +316,26 @@ export default function ChooseOver() {
             </p>
 
             <div className="grid grid-cols-2 gap-2 mb-4">
-              <div className="bg-gray-900 rounded flex items-center justify-center py-2 px-4">
+              <div className="bg-background rounded flex items-center justify-center py-4 px-4">
                 <span className="mr-2">HighPaidJobs</span>
                 <Check className="h-5 w-5 text-green-500" />
               </div>
-              <div className="bg-gray-900 rounded flex items-center justify-center py-2 px-4">
+              <div className="bg-background rounded flex items-center justify-center py-4 px-4">
                 <span className="mr-2">Others</span>
                 <X className="h-5 w-5 text-red-500" />
               </div>
             </div>
 
-            <div className="bg-gray-700 rounded p-2 text-xs text-center">
-              Average 15-10% increase in offers
+            <div className="bg-white rounded p-2 text-xs text-center">
+              <span className="text-blue-700 ">
+                Average 15-10% increase in offers
+              </span>
             </div>
           </div>
 
           {/* Feature 6 */}
-          <div className="bg-gray-800 rounded-lg p-6">
-            <div className="flex justify-center mb-4">
+          <div className="bg-secondary border radias rounded-lg p-6">
+            <div className="mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -349,18 +360,20 @@ export default function ChooseOver() {
             </p>
 
             <div className="grid grid-cols-2 gap-2 mb-4">
-              <div className="bg-gray-900 rounded flex items-center justify-center py-2 px-4">
+              <div className="bg-background rounded flex items-center justify-center py-4 px-4">
                 <span className="mr-2">HighPaidJobs</span>
                 <Check className="h-5 w-5 text-green-500" />
               </div>
-              <div className="bg-gray-900 rounded flex items-center justify-center py-2 px-4">
+              <div className="bg-background rounded flex items-center justify-center py-4 px-4">
                 <span className="mr-2">Others</span>
                 <X className="h-5 w-5 text-red-500" />
               </div>
             </div>
 
-            <div className="bg-gray-700 rounded p-2 text-xs text-center">
-              15-day unconditional guarantee
+            <div className="bg-white rounded p-2 text-xs text-center">
+              <span className="text-blue-700 ">
+                15-day unconditional guarantee
+              </span>
             </div>
           </div>
         </div>

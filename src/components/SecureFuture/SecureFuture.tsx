@@ -1,6 +1,6 @@
 export default function SecureFuture() {
   return (
-    <div className=" bg-primary container mx-auto  text-white py-8 px-4 mb-8">
+    <div className=" bg-primary container mx-auto radias-8 text-white py-14 px-4 mb-8">
       <div className="  flex flex-col items-center justify-center text-center">
         <h1 className="text-3xl md:text-4xl font-bold mb-3">
           Secure Your $100K+ Future Today!
@@ -13,7 +13,7 @@ export default function SecureFuture() {
         <div className="flex flex-col sm:flex-row gap-3 mb-6">
           <a
             href="#"
-            className="bg-[#f7b928] hover:bg-[#e6aa24] text-black font-medium py-2 px-4 rounded-full flex items-center justify-center"
+            className="bg-[#f7b928] hover:bg-[#e6aa24]  font-medium py-2 px-4 rounded-full flex items-center justify-center"
           >
             Book a Free 15-Min Call →
           </a>
